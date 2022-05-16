@@ -22,7 +22,7 @@
         </config-file>
 
         <source-file src="src/android/AppLovinMAX.java" target-dir="src/com/applovin/cordova" />
-        
+
         <framework src="com.applovin:applovin-sdk:+" />
     </platform>
 
@@ -40,7 +40,7 @@
 
         <podspec>
           <config>
-            <source url="https://github.com/AppLovin/Public-CocoaPods-Specs" />
+            <source url="https://cdn.cocoapods.org/"/>
             <source url="https://github.com/CocoaPods/Specs.git"/>
           </config>
           <pods use-frameworks="true">
